@@ -27,11 +27,11 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        // $brands = Brand::select('id', 'url', 'name')->where('status', 1)->get();
-        // $categories = Category::select('id', 'url', 'name')->where('status', 1)->get();
-        // View::share([
-        //     'brands' => $brands,
-        //     'categories' => $categories
-        // ]);
+        $brands = Brand::select('id', 'url', 'name')->where('status', 1)->get();
+        $categories = Category::select('id', 'url', 'name')->where('status', 1)->get();
+        View::share([
+            'brands' => $brands,
+            'categories' => $categories
+        ]);
     }
 }

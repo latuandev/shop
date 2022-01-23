@@ -44,7 +44,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('admin.products.statistical')}}" class="nav-link">
+                        <a href="javascript:void(0);" class="nav-link" onclick="updatingFunction()">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Thống kê</p>
                         </a>
@@ -67,13 +67,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('admin.orders.ship')}}" class="nav-link">
+                        <a href="javascript:void(0);" class="nav-link" onclick="updatingFunction()">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Vận chuyển</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('admin.orders.statistical')}}" class="nav-link">
+                        <a href="javascript:void(0);" class="nav-link" onclick="updatingFunction()">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Thống kê</p>
                         </a>
@@ -87,7 +87,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{route('admin.users')}}" class="nav-link">
+                <a href="javascript:void(0);" class="nav-link" onclick="updatingFunction()">
                     <i class="nav-icon fas fa-users"></i>
                     <p class="text">Người dùng</p>
                 </a>
