@@ -1,4 +1,9 @@
 # E-commerce website
+
+This project serves as a repository for precious memories. This source code architecture is not recommended due to the lack of a Repository pattern implementation.
+
+---
+
 Note: Website is still under development and some features are still incomplete <br>
 Demo: https://atuan.club <br>
 Admin dashboard access: https://atuan.club/admin/login with [<b>email:</b> admin@atuan.club] and [<b>password:</b> admin123123]
